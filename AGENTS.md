@@ -9,4 +9,4 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep the translator as a single responsive workspace; use semantic Brutalist Pop tokens and preserve text, voice, and photo parity because all three are primary workflows.
+- Keep the translator as a single responsive workspace; use semantic dark synthwave tokens and preserve text, voice, and photo parity because all three are primary workflows.
