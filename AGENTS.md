@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep the translator as a single responsive workspace; use semantic dark synthwave tokens and preserve text, voice, and photo parity because all three are primary workflows.
+- Keep installability manifest-only because translation requires internet access; this avoids stale offline copies while supporting home-screen installation.
