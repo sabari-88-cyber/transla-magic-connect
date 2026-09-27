@@ -26,6 +26,7 @@ import {
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { speakText, translateImage, translateText, translateVoice } from "@/lib/translate.functions";
 import { cn } from "@/lib/utils";
+import linguaLogo from "@/assets/lingua-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -200,7 +201,7 @@ function Index() {
         <div className="relative mx-auto max-w-[88rem] overflow-hidden rounded-3xl border border-border bg-card shadow-[0_24px_90px_color-mix(in_oklab,var(--neon-pink)_12%,transparent)] backdrop-blur-xl">
           <header className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 border-b border-border px-4 py-4 sm:flex sm:flex-wrap sm:justify-between sm:px-6">
             <div className="flex min-w-0 items-center gap-3">
-              <div className="grid size-11 shrink-0 place-items-center rounded-xl border border-neon-cyan/50 bg-neon-cyan/10 text-neon-cyan shadow-[0_0_20px_color-mix(in_oklab,var(--neon-cyan)_28%,transparent)]"><Languages className="size-6" /></div>
+              <img src={linguaLogo.url} alt="Lingua logo" className="size-12 shrink-0 rounded-xl border border-neon-cyan/50 object-cover shadow-[0_0_20px_color-mix(in_oklab,var(--neon-cyan)_28%,transparent)] sm:size-14" />
               <div className="min-w-0">
                 <h1 className="truncate font-display text-xl leading-none text-neon-cyan sm:text-2xl">Lingua</h1>
                 <p className="mt-1 hidden text-xs font-semibold uppercase text-muted-foreground sm:block">Speak beyond borders</p>
